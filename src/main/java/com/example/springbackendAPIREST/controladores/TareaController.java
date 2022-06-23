@@ -52,7 +52,7 @@ public class TareaController {
 
         Optional<Tarea> opt=tareaService.findById(id);
 
-        if(opt.isEmpty()){
+        if(!opt.isPresent()){
             log.warn("No se existe la tarea con id :"+id.toString());
             return ResponseEntity.notFound().build();
         }
