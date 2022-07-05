@@ -20,6 +20,7 @@ public class Tarea {
     @Column(name="Estado_de_finalizacion")
     private Boolean completado;
 
+
     public Tarea() {
 
     }
