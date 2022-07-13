@@ -66,6 +66,9 @@ public class AuthController {
     @PostMapping("/register")
     public ResponseEntity<MessageResponse> register(@RequestBody RegisterRequest signUpRequest) {
 
+
+        System.out.println(signUpRequest);
+
         // VERIFICAR USUARIO
         if (userRepository.existsByUsername(signUpRequest.getUsername())) {
             return ResponseEntity
