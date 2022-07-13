@@ -1,10 +1,10 @@
 
-Proyecto Spring boot de Aplicacion API REST para un gestor de tareas con acceso a base de datos H2 (de forma local) y con PostgreSQL
+# Proyecto Spring boot de Aplicacion API REST para un gestor de tareas con acceso a base de datos H2 (de forma local) y con PostgreSQL
 
 #Servidor y Puerto de escucha : 
     Apache Tomcat en puerto 8081
     
-# Seguridad : Autenticacion por token --> JWT
+#Seguridad : Autenticacion por token --> JWT
 
 #Configuracion de conexion a BBDD remota (HEROKU) : archivo application.properties (PERFIL ACTIVO)
 
